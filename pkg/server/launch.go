@@ -14,7 +14,7 @@ func Launch(api string) error{
 		log.Fatalf("%s", err.Error())
 	}
 
-	logic.BotWork(bot)
+	logic.Receiver(bot)
 
 	return err
 }
